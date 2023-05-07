@@ -1,0 +1,68 @@
+
+@media only screen and (max-width: 1660px) {
+	
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+	
+}
+
+
+
+
+@media only screen and (max-width: 650px) {
+	header {
+		text-align: center;
+	}
+	.top-left-links a:last-child {
+		margin: 0px 0px 0px 0px;
+	}
+	.space::before {
+		font-size: 2.2vw;
+		line-height: 1.2em;
+	}
+	.socials {
+		position: fixed;
+		z-index: 1;
+		top: auto;
+		bottom: 4px;
+		right: 16px;
+		transform: translateY(-50%);
+		color: #db7a6d;
+		background-color: #ffffff;
+		font-size: 10px;
+		line-height: 10px;
+		text-transform: uppercase;
+		font-weight: 200;
+		padding: 6px 78px 6px 10px;
+		border: 1px solid #df7b6c;
+		border-radius: 50px;
+	}
+	.socials .list-container {
+		right: 2px;
+	}
+	#ticket-container {
+		border-radius: 5%;
+		width: 90%;
+		max-width: 550px;
+		margin: 60px auto;
+		transform: rotateZ(0deg)
+	}
+}
+@media only screen and (max-width: 400px) {
+	.socials strong {
+		
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 520px) and (min-height: 610px) and (-webkit-min-device-pixel-ratio : 2) {
+	
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.4) {
+	
+}
